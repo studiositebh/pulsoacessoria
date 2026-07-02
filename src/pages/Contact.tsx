@@ -1,4 +1,5 @@
-import { MessageCircle, Phone, Mail, Clock, MapPin } from "lucide-react";
+import { Phone, Mail, Clock, MapPin } from "lucide-react";
+import { WhatsAppIcon } from "@/components/common/WhatsAppIcon";
 import { SEO } from "@/components/common/SEO";
 import { Container } from "@/components/common/Container";
 import { PageHero } from "@/components/common/PageHero";
@@ -54,7 +55,7 @@ export default function Contact() {
                     className="flex items-center gap-4 rounded-xl border border-brand-100 bg-white p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-card-hover"
                   >
                     <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-whatsapp/10 text-whatsapp-dark">
-                      <MessageCircle className="h-6 w-6" aria-hidden="true" />
+                      <WhatsAppIcon className="h-6 w-6" aria-hidden="true" />
                     </span>
                     <span>
                       <span className="block font-semibold text-brand-900">WhatsApp</span>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Menu, MessageCircle } from "lucide-react";
+import { Menu } from "lucide-react";
+import { WhatsAppIcon } from "@/components/common/WhatsAppIcon";
 import { mainNav } from "@/config/navigation";
 import { siteConfig } from "@/config/site";
 import { createWhatsAppUrl } from "@/lib/whatsapp";
@@ -74,7 +75,7 @@ export function Header() {
                 rel="noopener noreferrer"
                 className="hidden items-center gap-2 rounded-lg bg-brand-700 px-4 py-2.5 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-brand-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 sm:inline-flex"
               >
-                <MessageCircle className="h-4 w-4" aria-hidden="true" />
+                <WhatsAppIcon className="h-4 w-4" aria-hidden="true" />
                 Falar com um consultor
               </a>
 

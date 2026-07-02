@@ -1,4 +1,5 @@
-import { MessageCircle, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { WhatsAppIcon } from "@/components/common/WhatsAppIcon";
 import { Container } from "@/components/common/Container";
 import { Button } from "@/components/common/Button";
 import { siteConfig } from "@/config/site";
@@ -49,7 +50,7 @@ export function HomeHero() {
               variant="whatsapp"
               size="lg"
             >
-              <MessageCircle className="h-5 w-5" aria-hidden="true" />
+              <WhatsAppIcon className="h-5 w-5" aria-hidden="true" />
               Falar com um consultor
             </Button>
           </div>

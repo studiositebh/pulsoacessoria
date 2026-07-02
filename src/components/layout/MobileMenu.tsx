@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
-import { X, MessageCircle } from "lucide-react";
+import { X } from "lucide-react";
+import { WhatsAppIcon } from "@/components/common/WhatsAppIcon";
 import { mainNav } from "@/config/navigation";
 import { siteConfig } from "@/config/site";
 import { createWhatsAppUrl } from "@/lib/whatsapp";
@@ -109,7 +110,7 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
             onClick={onClose}
             className="flex w-full items-center justify-center gap-2 rounded-lg bg-whatsapp px-5 py-3.5 text-base font-semibold text-white transition-colors hover:bg-whatsapp-dark"
           >
-            <MessageCircle className="h-5 w-5" aria-hidden="true" />
+            <WhatsAppIcon className="h-5 w-5" aria-hidden="true" />
             Falar com um consultor
           </a>
         </div>

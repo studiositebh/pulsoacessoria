@@ -1,4 +1,5 @@
-import { MessageCircle, ArrowRight, ShieldCheck } from "lucide-react";
+import { ArrowRight, ShieldCheck } from "lucide-react";
+import { WhatsAppIcon } from "@/components/common/WhatsAppIcon";
 import { SEO } from "@/components/common/SEO";
 import { Container } from "@/components/common/Container";
 import { SectionHeading } from "@/components/common/SectionHeading";
@@ -88,7 +89,7 @@ export default function CondoInsurance() {
                 variant="whatsapp"
                 size="lg"
               >
-                <MessageCircle className="h-5 w-5" aria-hidden="true" />
+                <WhatsAppIcon className="h-5 w-5" aria-hidden="true" />
                 Falar com um consultor
               </Button>
             </div>
@@ -206,7 +207,7 @@ export default function CondoInsurance() {
                   variant="whatsapp"
                   size="lg"
                 >
-                  <MessageCircle className="h-5 w-5" aria-hidden="true" />
+                  <WhatsAppIcon className="h-5 w-5" aria-hidden="true" />
                   Conversar sobre a proteção do síndico
                 </Button>
               </div>

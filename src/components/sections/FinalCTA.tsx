@@ -1,4 +1,5 @@
-import { MessageCircle, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { WhatsAppIcon } from "@/components/common/WhatsAppIcon";
 import { Container } from "@/components/common/Container";
 import { Button } from "@/components/common/Button";
 import { Reveal } from "@/components/common/Reveal";
@@ -46,7 +47,7 @@ export function FinalCTA({
               variant="whatsapp"
               size="lg"
             >
-              <MessageCircle className="h-5 w-5" aria-hidden="true" />
+              <WhatsAppIcon className="h-5 w-5" aria-hidden="true" />
               {whatsappLabel}
             </Button>
           </div>

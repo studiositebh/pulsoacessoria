@@ -1,4 +1,5 @@
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { WhatsAppIcon } from "@/components/common/WhatsAppIcon";
 import { SEO } from "@/components/common/SEO";
 import { Container } from "@/components/common/Container";
 import { PageHero } from "@/components/common/PageHero";
@@ -99,7 +100,7 @@ export default function Solutions() {
                         rel="noopener noreferrer"
                         variant="outline"
                       >
-                        <MessageCircle className="h-4 w-4" aria-hidden="true" />
+                        <WhatsAppIcon className="h-4 w-4" aria-hidden="true" />
                         Falar sobre esta solução
                       </Button>
                     )}

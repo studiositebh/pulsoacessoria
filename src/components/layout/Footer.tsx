@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MessageCircle, Clock, Instagram, Linkedin, Facebook } from "lucide-react";
+import { Mail, Phone, Clock, Instagram, Linkedin, Facebook } from "lucide-react";
+import { WhatsAppIcon } from "@/components/common/WhatsAppIcon";
 import { Container } from "@/components/common/Container";
 import { Logo } from "@/components/layout/Logo";
 import { mainNav, footerSolutions } from "@/config/navigation";
@@ -94,7 +95,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-brand-200 transition-colors hover:text-white"
                 >
-                  <MessageCircle className="h-4 w-4 shrink-0" aria-hidden="true" />
+                  <WhatsAppIcon className="h-4 w-4 shrink-0" aria-hidden="true" />
                   WhatsApp
                 </a>
               </li>
