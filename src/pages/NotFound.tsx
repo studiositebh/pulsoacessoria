@@ -2,6 +2,7 @@ import { Home, ArrowLeft } from "lucide-react";
 import { SEO } from "@/components/common/SEO";
 import { Container } from "@/components/common/Container";
 import { Button } from "@/components/common/Button";
+import { Logo } from "@/components/layout/Logo";
 
 export default function NotFound() {
   return (
@@ -14,6 +15,9 @@ export default function NotFound() {
       />
       <section className="flex min-h-[60vh] items-center bg-white py-20">
         <Container className="text-center">
+          <div className="mb-8 flex justify-center">
+            <Logo />
+          </div>
           <p className="text-6xl font-extrabold text-brand-200 sm:text-7xl">404</p>
           <h1 className="mt-4 text-2xl font-bold text-brand-900 sm:text-3xl">
             Página não encontrada

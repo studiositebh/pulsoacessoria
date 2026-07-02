@@ -4,24 +4,23 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Provisional Pulso brand palette.
-        // Change these values to match the official brand once it is defined.
+        // Pulso brand palette — derived from the official logo (petrol/teal).
+        // The logo wordmark color sits around brand-600/700 (#12667d).
         brand: {
-          // Deep navy blue — primary color
-          50: "#eef3fb",
-          100: "#d6e2f5",
-          200: "#adc4ea",
-          300: "#7fa1dc",
-          400: "#4f79c9",
-          500: "#2f5aad",
-          600: "#22448a",
-          700: "#1b3670",
-          800: "#152a58",
-          900: "#0f1f42",
-          950: "#0a1530",
+          50: "#eef7fa",
+          100: "#d2ebf1",
+          200: "#a9d7e2",
+          300: "#73bccf",
+          400: "#3f9bb4",
+          500: "#1f7d99",
+          600: "#12667d", // ← cor do logotipo (referência)
+          700: "#0f5567",
+          800: "#104555",
+          900: "#103a46",
+          950: "#082630", // fundo escuro (hero/rodapé)
         },
         accent: {
-          // Discreet bright blue / cyan — highlight color
+          // Ciano mais vivo — cor de destaque, harmoniza com o teal da marca
           50: "#ecfbff",
           100: "#cff4fd",
           200: "#a5e9fb",
@@ -61,9 +60,9 @@ export default {
         content: "1200px",
       },
       boxShadow: {
-        card: "0 1px 2px rgba(15, 31, 66, 0.04), 0 8px 24px rgba(15, 31, 66, 0.06)",
+        card: "0 1px 2px rgba(8, 38, 48, 0.04), 0 8px 24px rgba(8, 38, 48, 0.06)",
         "card-hover":
-          "0 4px 8px rgba(15, 31, 66, 0.06), 0 16px 40px rgba(15, 31, 66, 0.12)",
+          "0 4px 8px rgba(8, 38, 48, 0.06), 0 16px 40px rgba(8, 38, 48, 0.12)",
       },
       keyframes: {
         "fade-up": {

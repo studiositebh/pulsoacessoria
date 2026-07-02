@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Ilustração de proteção de condomínio">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Ilustra??o de prote??o de condom?nio">
   <defs>
     <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1b3670"/>
-      <stop offset="1" stop-color="#0a1530"/>
+      <stop offset="0" stop-color="#103a46"/>
+      <stop offset="1" stop-color="#082630"/>
     </linearGradient>
     <linearGradient id="b1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2f5aad"/>
-      <stop offset="1" stop-color="#152a58"/>
+      <stop offset="0" stop-color="#12667d"/>
+      <stop offset="1" stop-color="#104555"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="1000" fill="url(#sky2)"/>
   <g opacity="0.95">
     <rect x="250" y="380" width="260" height="620" rx="6" fill="url(#b1)"/>
-    <rect x="560" y="280" width="300" height="720" rx="6" fill="#22448a"/>
+    <rect x="560" y="280" width="300" height="720" rx="6" fill="#0f5567"/>
     <rect x="910" y="440" width="240" height="560" rx="6" fill="url(#b1)"/>
   </g>
   <g fill="#67d8f6" opacity="0.25">
@@ -22,7 +22,7 @@
   </g>
   <g transform="translate(1120 240)">
     <path d="M120 0 L240 52 V150 C240 250 185 300 120 330 C55 300 0 250 0 150 V52 Z" fill="#06a0cf" opacity="0.9"/>
-    <path d="M120 40 L200 76 V150 C200 222 162 258 120 280 C78 258 40 222 40 150 V76 Z" fill="#0a1530" opacity="0.35"/>
+    <path d="M120 40 L200 76 V150 C200 222 162 258 120 280 C78 258 40 222 40 150 V76 Z" fill="#082630" opacity="0.35"/>
     <path d="M84 158 l26 26 52 -60" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
