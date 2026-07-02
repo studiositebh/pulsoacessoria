@@ -1,0 +1,8 @@
+# robots.txt — Pulso
+# IMPORTANTE: substitua o domínio abaixo pelo domínio oficial antes de publicar.
+# Deve coincidir com siteConfig.siteUrl (src/config/site.ts).
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.dominio-da-pulso.com.br/sitemap.xml

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Ilustração da equipe de consultores">
+  <defs>
+    <linearGradient id="ibg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef3fb"/>
+      <stop offset="1" stop-color="#cff4fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#ibg)"/>
+  <circle cx="240" cy="220" r="170" fill="#2f5aad" opacity="0.08"/>
+  <circle cx="960" cy="720" r="200" fill="#06a0cf" opacity="0.08"/>
+  <g transform="translate(360 300)">
+    <g transform="translate(0 40)">
+      <circle cx="80" cy="60" r="52" fill="#1b3670"/>
+      <circle cx="80" cy="46" r="20" fill="#eef3fb"/>
+      <path d="M44 70c0-20 16-32 36-32s36 12 36 32" fill="#eef3fb"/>
+    </g>
+    <g transform="translate(200 0)">
+      <circle cx="80" cy="60" r="60" fill="#22448a"/>
+      <circle cx="80" cy="44" r="23" fill="#ffffff"/>
+      <path d="M38 74c0-23 19-37 42-37s42 14 42 37" fill="#ffffff"/>
+    </g>
+    <g transform="translate(420 40)">
+      <circle cx="80" cy="60" r="52" fill="#06a0cf"/>
+      <circle cx="80" cy="46" r="20" fill="#ecfbff"/>
+      <path d="M44 70c0-20 16-32 36-32s36 12 36 32" fill="#ecfbff"/>
+    </g>
+  </g>
+</svg>
