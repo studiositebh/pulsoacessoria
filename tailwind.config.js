@@ -4,39 +4,40 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Pulso brand palette — derived from the official logo (petrol/teal).
-        // The logo wordmark color sits around brand-600/700 (#12667d).
+        // Paleta oficial da Pulso — derivada da cor da marca #065672 (azul-petróleo).
+        // Cor principal: brand-700 (#065672). Escuros: 800/900/950. Claros: 50/100/200.
         brand: {
-          50: "#eef7fa",
-          100: "#d2ebf1",
-          200: "#a9d7e2",
-          300: "#73bccf",
-          400: "#3f9bb4",
-          500: "#1f7d99",
-          600: "#12667d", // ← cor do logotipo (referência)
-          700: "#0f5567",
-          800: "#104555",
-          900: "#103a46",
-          950: "#082630", // fundo escuro (hero/rodapé)
+          50: "#eef7f9", // --brand-background-soft
+          100: "#dceef3", // --brand-primary-light
+          200: "#cfe2e7", // --brand-border
+          300: "#a6cdd6",
+          400: "#6ba7b6",
+          500: "#3a8497",
+          600: "#166a83",
+          700: "#065672", // ← cor oficial da marca (--brand-primary)
+          800: "#043d51", // --brand-primary-dark
+          900: "#032f3e", // --brand-primary-darker
+          950: "#02222d",
         },
         accent: {
-          // Ciano mais vivo — cor de destaque, harmoniza com o teal da marca
-          50: "#ecfbff",
-          100: "#cff4fd",
-          200: "#a5e9fb",
-          300: "#67d8f6",
-          400: "#22bfe9",
-          500: "#06a0cf",
-          600: "#0880ae",
-          700: "#0e668d",
-          800: "#155472",
-          900: "#164760",
+          // Destaque na mesma família petróleo (versão mais viva da marca),
+          // evitando ciano genérico sem relação com o logotipo.
+          50: "#e9f4f7",
+          100: "#cbe6ec",
+          200: "#a0d2dd",
+          300: "#6cb6c7",
+          400: "#3d97ac",
+          500: "#1a7d94",
+          600: "#0a6a83",
+          700: "#085a70",
+          800: "#0b4a5d",
+          900: "#0d3f4f",
         },
         ink: {
-          // Dark gray text tones
-          DEFAULT: "#1f2733",
-          soft: "#495260",
-          muted: "#6b7482",
+          // Tons de texto (cinza-escuro)
+          DEFAULT: "#12252d", // --text-primary
+          soft: "#53666e", // --text-secondary
+          muted: "#6b7c84",
         },
         whatsapp: {
           DEFAULT: "#25D366",
@@ -60,9 +61,9 @@ export default {
         content: "1200px",
       },
       boxShadow: {
-        card: "0 1px 2px rgba(8, 38, 48, 0.04), 0 8px 24px rgba(8, 38, 48, 0.06)",
+        card: "0 1px 2px rgba(3, 47, 62, 0.04), 0 8px 24px rgba(3, 47, 62, 0.06)",
         "card-hover":
-          "0 4px 8px rgba(8, 38, 48, 0.06), 0 16px 40px rgba(8, 38, 48, 0.12)",
+          "0 4px 8px rgba(3, 47, 62, 0.06), 0 16px 40px rgba(3, 47, 62, 0.12)",
       },
       keyframes: {
         "fade-up": {

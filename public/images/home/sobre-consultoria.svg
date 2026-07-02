@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Ilustra??o de atendimento consultivo">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#eef7fa"/>
-      <stop offset="1" stop-color="#d2ebf1"/>
+      <stop offset="0" stop-color="#eef7f9"/>
+      <stop offset="1" stop-color="#dceef3"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="900" fill="url(#bg)"/>
-  <circle cx="900" cy="220" r="180" fill="#12667d" opacity="0.10"/>
-  <circle cx="260" cy="700" r="200" fill="#22bfe9" opacity="0.10"/>
+  <circle cx="900" cy="220" r="180" fill="#065672" opacity="0.10"/>
+  <circle cx="260" cy="700" r="200" fill="#3d97ac" opacity="0.12"/>
   <g transform="translate(360 200)">
-    <rect x="0" y="120" width="480" height="360" rx="18" fill="#ffffff" stroke="#a9d7e2" stroke-width="2"/>
-    <rect x="40" y="170" width="300" height="22" rx="11" fill="#a9d7e2"/>
-    <rect x="40" y="212" width="400" height="16" rx="8" fill="#d2ebf1"/>
-    <rect x="40" y="244" width="360" height="16" rx="8" fill="#d2ebf1"/>
-    <rect x="40" y="276" width="380" height="16" rx="8" fill="#d2ebf1"/>
-    <circle cx="120" cy="380" r="46" fill="#0f5567"/>
+    <rect x="0" y="120" width="480" height="360" rx="18" fill="#ffffff" stroke="#cfe2e7" stroke-width="2"/>
+    <rect x="40" y="170" width="300" height="22" rx="11" fill="#a6cdd6"/>
+    <rect x="40" y="212" width="400" height="16" rx="8" fill="#dceef3"/>
+    <rect x="40" y="244" width="360" height="16" rx="8" fill="#dceef3"/>
+    <rect x="40" y="276" width="380" height="16" rx="8" fill="#dceef3"/>
+    <circle cx="120" cy="380" r="46" fill="#065672"/>
     <path d="M96 384c0-14 12-24 24-24s24 10 24 24" fill="#ffffff"/>
     <circle cx="120" cy="356" r="16" fill="#ffffff"/>
-    <rect x="200" y="352" width="240" height="18" rx="9" fill="#12667d"/>
-    <rect x="200" y="386" width="180" height="14" rx="7" fill="#a9d7e2"/>
+    <rect x="200" y="352" width="240" height="18" rx="9" fill="#166a83"/>
+    <rect x="200" y="386" width="180" height="14" rx="7" fill="#a6cdd6"/>
   </g>
-  <path d="M300 470 l40 -20 40 20 40 -20" fill="none" stroke="#06a0cf" stroke-width="4" stroke-linecap="round"/>
+  <path d="M300 470 l40 -20 40 20 40 -20" fill="none" stroke="#0a6a83" stroke-width="4" stroke-linecap="round"/>
 </svg>

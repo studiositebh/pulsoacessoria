@@ -1,28 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Ilustra??o da equipe de consultores">
   <defs>
     <linearGradient id="ibg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#eef7fa"/>
-      <stop offset="1" stop-color="#cff4fd"/>
+      <stop offset="0" stop-color="#eef7f9"/>
+      <stop offset="1" stop-color="#cbe6ec"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="900" fill="url(#ibg)"/>
-  <circle cx="240" cy="220" r="170" fill="#12667d" opacity="0.08"/>
-  <circle cx="960" cy="720" r="200" fill="#06a0cf" opacity="0.08"/>
+  <circle cx="240" cy="220" r="170" fill="#065672" opacity="0.08"/>
+  <circle cx="960" cy="720" r="200" fill="#0a6a83" opacity="0.08"/>
   <g transform="translate(360 300)">
     <g transform="translate(0 40)">
-      <circle cx="80" cy="60" r="52" fill="#0f5567"/>
-      <circle cx="80" cy="46" r="20" fill="#eef7fa"/>
-      <path d="M44 70c0-20 16-32 36-32s36 12 36 32" fill="#eef7fa"/>
+      <circle cx="80" cy="60" r="52" fill="#043d51"/>
+      <circle cx="80" cy="46" r="20" fill="#eef7f9"/>
+      <path d="M44 70c0-20 16-32 36-32s36 12 36 32" fill="#eef7f9"/>
     </g>
     <g transform="translate(200 0)">
-      <circle cx="80" cy="60" r="60" fill="#12667d"/>
+      <circle cx="80" cy="60" r="60" fill="#065672"/>
       <circle cx="80" cy="44" r="23" fill="#ffffff"/>
       <path d="M38 74c0-23 19-37 42-37s42 14 42 37" fill="#ffffff"/>
     </g>
     <g transform="translate(420 40)">
-      <circle cx="80" cy="60" r="52" fill="#06a0cf"/>
-      <circle cx="80" cy="46" r="20" fill="#ecfbff"/>
-      <path d="M44 70c0-20 16-32 36-32s36 12 36 32" fill="#ecfbff"/>
+      <circle cx="80" cy="60" r="52" fill="#166a83"/>
+      <circle cx="80" cy="46" r="20" fill="#e9f4f7"/>
+      <path d="M44 70c0-20 16-32 36-32s36 12 36 32" fill="#e9f4f7"/>
     </g>
   </g>
 </svg>

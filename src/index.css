@@ -5,6 +5,23 @@
 @layer base {
   :root {
     scroll-behavior: smooth;
+
+    /* -------------------------------------------------------------------
+     * Cores oficiais da Pulso (derivadas de #065672).
+     * Estas variáveis documentam a identidade e espelham os tokens do
+     * tema do Tailwind (tailwind.config.js → colors.brand / ink).
+     * ------------------------------------------------------------------- */
+    --brand-primary: #065672;
+    --brand-primary-dark: #043d51;
+    --brand-primary-darker: #032f3e;
+    --brand-primary-light: #dceef3;
+    --brand-background-soft: #eef7f9;
+    --brand-border: #cfe2e7;
+
+    --text-primary: #12252d;
+    --text-secondary: #53666e;
+    --background: #ffffff;
+    --background-muted: #f6f9fa;
   }
 
   html,

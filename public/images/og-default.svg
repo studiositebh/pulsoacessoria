@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Pulso — Seguros, Prote??o e Benef?cios">
   <defs>
     <linearGradient id="og" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#103a46"/>
-      <stop offset="1" stop-color="#082630"/>
+      <stop offset="0" stop-color="#043d51"/>
+      <stop offset="1" stop-color="#02222d"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#og)"/>
-  <circle cx="1020" cy="150" r="220" fill="#22bfe9" opacity="0.10"/>
+  <circle cx="1020" cy="150" r="220" fill="#3d97ac" opacity="0.16"/>
   <g transform="translate(96 250)">
-    <path d="M0 24 h44 l14 -34 22 74 16 -52 12 24 h40" fill="none" stroke="#22bfe9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 24 h44 l14 -34 22 74 16 -52 12 24 h40" fill="none" stroke="#6cb6c7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
     <text x="0" y="112" font-family="Inter, Arial, sans-serif" font-size="84" font-weight="800" fill="#ffffff">Pulso</text>
-    <text x="0" y="176" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="500" fill="#a9d7e2">Consultoria em prote??o, seguros, rastreamento e benef?cios</text>
+    <text x="0" y="176" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="500" fill="#a6cdd6">Consultoria em prote??o, seguros, rastreamento e benef?cios</text>
   </g>
 </svg>
