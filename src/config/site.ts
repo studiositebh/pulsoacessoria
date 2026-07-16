@@ -21,12 +21,12 @@ export const siteConfig = {
   shortDescription:
     "A Pulso é uma consultoria que analisa necessidades, identifica riscos e apresenta soluções adequadas de seguros, proteção e benefícios.",
 
-  // TODO: substituir pelo número real de WhatsApp (somente dígitos, com DDI + DDD)
-  // Formato: 55 (Brasil) + DDD + número. Ex.: 5531999999999
-  whatsappNumber: "5531000000000",
+  // WhatsApp (somente dígitos, com DDI + DDD)
+  // Formato: 55 (Brasil) + DDD + número
+  whatsappNumber: "5531993916004",
 
-  // TODO: substituir pelo telefone real (formato de exibição)
-  phoneDisplay: "(31) 00000-0000",
+  // Telefone / WhatsApp (formato de exibição)
+  phoneDisplay: "(31) 99391-6004",
 
   // TODO: substituir pelo e-mail oficial
   email: "contato@pulso.com.br",
