@@ -8,31 +8,31 @@ const audiences = [
   {
     icon: Building2,
     title: "Condomínios",
-    text: "Proteção estruturada para o patrimônio e as áreas comuns.",
+    text: "Levantamento e análise de riscos in loco, com soluções integradas de segurança, prevenção e proteção patrimonial.",
     highlight: true,
   },
   {
     icon: UserCog,
     title: "Síndicos",
-    text: "Apoio a quem administra e responde pelo condomínio.",
+    text: "Apoio consultivo para identificar riscos, avaliar prioridades e tomar decisões com mais segurança e responsabilidade.",
     highlight: true,
   },
   {
     icon: Landmark,
     title: "Administradoras",
-    text: "Parceria consultiva no atendimento à sua carteira.",
+    text: "Parceria especializada para ampliar a segurança e a proteção dos condomínios atendidos por sua empresa.",
     highlight: true,
   },
   {
     icon: Briefcase,
     title: "Empresas",
-    text: "Soluções de proteção e benefícios para negócios.",
+    text: "Soluções de segurança, proteção patrimonial, rastreamento, seguros, saúde e benefícios para o negócio e seus colaboradores.",
     highlight: false,
   },
   {
     icon: Users,
     title: "Pessoas e famílias",
-    text: "Alternativas de proteção para diferentes momentos da vida.",
+    text: "Alternativas para proteger a saúde, a vida, os veículos, a residência, os pets e o patrimônio familiar.",
     highlight: false,
   },
 ];
@@ -43,9 +43,9 @@ export function AudienceSection() {
       <Container>
         <Reveal>
           <SectionHeading
-            eyebrow="Para quem atendemos"
-            title="Soluções para diferentes perfis"
-            description="A Pulso atende quem precisa proteger patrimônios, pessoas e responsabilidades — com atenção especial ao universo condominial."
+            eyebrow="Para quem trabalhamos"
+            title="Soluções para quem cuida, administra e protege"
+            description="A Pulso atende condomínios, síndicos, administradoras, empresas, pessoas e famílias com uma atuação consultiva, baseada no conhecimento das necessidades, na identificação dos riscos e na busca de soluções adequadas."
           />
         </Reveal>
 

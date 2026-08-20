@@ -1,23 +1,24 @@
-import { Search, Shield, Target } from "lucide-react";
+import { Search, Shield, Handshake, ArrowRight } from "lucide-react";
 import { Container } from "@/components/common/Container";
 import { SectionHeading } from "@/components/common/SectionHeading";
 import { Reveal } from "@/components/common/Reveal";
+import { Button } from "@/components/common/Button";
 
 const pillars = [
   {
     icon: Search,
-    title: "Análise antes da recomendação",
-    text: "Compreendemos a realidade do cliente para só então apresentar alternativas.",
+    title: "Conhecer antes de recomendar",
+    text: "Analisamos a realidade, as necessidades e os riscos antes de apresentar qualquer solução.",
   },
   {
     icon: Shield,
-    title: "Foco em proteção real",
-    text: "Buscamos soluções que façam sentido para os riscos identificados.",
+    title: "Prevenção e proteção integradas",
+    text: "Combinamos análise de riscos, segurança patrimonial, monitoramento, rastreamento e seguros em uma visão completa de proteção.",
   },
   {
-    icon: Target,
-    title: "Decisões mais claras",
-    text: "Traduzimos coberturas e condições em informações compreensíveis.",
+    icon: Handshake,
+    title: "Especialistas e parceiros qualificados",
+    text: "Reunimos a experiência do nosso time a uma rede de corretores, seguradoras e empresas especializadas para buscar a solução adequada a cada cliente.",
   },
 ];
 
@@ -29,8 +30,8 @@ export function AboutSection() {
           <Reveal>
             <SectionHeading
               eyebrow="Quem é a Pulso"
-              title="Uma consultoria para proteger o que realmente importa"
-              description="A Pulso trabalha de forma consultiva: analisamos necessidades e identificamos riscos antes de apresentar alternativas. Nosso papel é ajudar cada cliente a tomar decisões de proteção com mais clareza e segurança."
+              title="Um time de especialistas em segurança, benefícios e proteção"
+              description="A Pulso reúne especialistas para compreender riscos e necessidades antes de recomendar soluções de proteção para pessoas, pets, empresas e patrimônio."
             />
             <ul className="mt-8 space-y-5">
               {pillars.map(({ icon: Icon, title, text }) => (
@@ -47,6 +48,16 @@ export function AboutSection() {
                 </li>
               ))}
             </ul>
+            <Button
+              as="link"
+              to="/quem-somos"
+              variant="outline"
+              size="md"
+              className="mt-8"
+            >
+              Saiba mais
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Button>
           </Reveal>
 
           <Reveal className="relative">

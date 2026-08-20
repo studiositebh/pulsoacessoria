@@ -30,16 +30,17 @@ export function HomeHero() {
             {siteConfig.tagline}
           </p>
           <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
-            Proteção inteligente para condomínios, empresas e patrimônios
+            Não começamos pelo produto.
+            <br />
+            Começamos pelo que precisa ser protegido.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-brand-100">
-            A Pulso oferece uma consultoria especializada para identificar riscos
-            e apresentar soluções de seguros, proteção e benefícios adequadas às
-            necessidades de cada cliente.
+            A Pulso identifica riscos e busca soluções adequadas para proteger
+            condomínios, empresas, patrimônios, a saúde e as pessoas.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <Button as="link" to="/seguro-condominio" variant="secondary" size="lg">
-              Solicitar uma cotação
+              Solicitar uma análise
               <ArrowRight className="h-5 w-5" aria-hidden="true" />
             </Button>
             <Button

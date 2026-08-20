@@ -27,7 +27,12 @@ export default function Home() {
       <SolutionsSection />
       <HowItWorksSection />
       <AudienceSection />
-      <FinalCTA />
+      <FinalCTA
+        title="Você sabe o que realmente precisa ser protegido?"
+        text="Converse com um consultor da Pulso. Vamos conhecer sua realidade, identificar suas necessidades e buscar as soluções mais adequadas."
+        primaryLabel="Solicitar uma análise"
+        whatsappLabel="Falar com um consultor"
+      />
     </>
   );
 }

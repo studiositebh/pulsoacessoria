@@ -11,6 +11,7 @@ export function organizationSchema() {
     url: siteConfig.siteUrl,
     email: siteConfig.email,
     telephone: siteConfig.phoneDisplay,
+    taxID: siteConfig.cnpj,
   };
 }
 

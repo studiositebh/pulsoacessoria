@@ -1,4 +1,4 @@
-import { Search, Handshake, ShieldCheck, ClipboardList } from "lucide-react";
+import { Search, Shield, Handshake } from "lucide-react";
 import { SEO } from "@/components/common/SEO";
 import { Container } from "@/components/common/Container";
 import { PageHero } from "@/components/common/PageHero";
@@ -7,26 +7,21 @@ import { Reveal } from "@/components/common/Reveal";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { breadcrumbSchema } from "@/lib/structuredData";
 
-const values = [
-  {
-    icon: Handshake,
-    title: "Atendimento consultivo",
-    text: "Ouvimos antes de recomendar. A conversa vem antes da proposta.",
-  },
+const pillars = [
   {
     icon: Search,
-    title: "Processo de análise",
-    text: "Avaliamos riscos e necessidades para orientar cada decisão.",
+    title: "Conhecer antes de recomendar",
+    text: "Analisamos a realidade, as necessidades e os riscos antes de apresentar qualquer solução.",
   },
   {
-    icon: ShieldCheck,
-    title: "Foco em proteção",
-    text: "Buscamos alternativas que realmente façam sentido para o cliente.",
+    icon: Shield,
+    title: "Prevenção e proteção integradas",
+    text: "Combinamos análise de riscos, segurança patrimonial, monitoramento, rastreamento e seguros em uma visão completa de proteção.",
   },
   {
-    icon: ClipboardList,
-    title: "Parcerias especializadas",
-    text: "Trabalhamos com companhias reconhecidas no mercado.",
+    icon: Handshake,
+    title: "Especialistas e parceiros qualificados",
+    text: "Reunimos a experiência do nosso time a uma rede de corretores, seguradoras e empresas especializadas para buscar a solução adequada a cada cliente.",
   },
 ];
 
@@ -59,14 +54,26 @@ export default function About() {
             <Reveal>
               <SectionHeading
                 eyebrow="Quem é a Pulso"
-                title="Proteger pessoas, patrimônios e negócios"
-                description="Nosso trabalho começa pela compreensão da realidade de cada cliente. A partir dessa análise, buscamos alternativas que façam sentido para os riscos, necessidades e objetivos identificados."
+                title="Um time de especialistas em segurança, benefícios e proteção"
+                description="A Pulso reúne consultores com experiência em saúde, benefícios, segurança patrimonial, rastreamento veicular e soluções para a proteção de pessoas, pets e patrimônio."
               />
               <p className="mt-5 text-base leading-relaxed text-ink-soft">
-                A Pulso nasceu para tornar decisões relacionadas à proteção mais
-                claras, próximas e seguras. Atuamos de forma consultiva,
-                apresentando soluções por meio de parceiros especializados e
-                acompanhando o cliente durante a contratação.
+                Para condomínios e pequenas e médias empresas, realizamos o
+                levantamento e a análise de riscos in loco. A partir desse
+                diagnóstico, identificamos medidas preventivas e buscamos
+                soluções adequadas, como seguros, monitoramento, alarmes,
+                câmeras e outros recursos de segurança.
+              </p>
+              <p className="mt-4 text-base leading-relaxed text-ink-soft">
+                Nosso trabalho começa pelo conhecimento da realidade de cada
+                cliente. Somente depois de compreender seus riscos e suas
+                necessidades, buscamos as melhores alternativas por meio de
+                corretores de seguros, seguradoras e empresas especializadas
+                parceiras.
+              </p>
+              <p className="mt-8 rounded-xl border-l-4 border-accent-600 bg-accent-50 p-6 text-lg font-bold leading-snug tracking-tight text-brand-900 sm:text-xl">
+                Não começamos pelo produto. Começamos entendendo o que precisa
+                ser protegido.
               </p>
             </Reveal>
             <Reveal>
@@ -95,8 +102,8 @@ export default function About() {
               description="Nossa missão é proteger pessoas, patrimônios e negócios com clareza e proximidade."
             />
           </Reveal>
-          <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {values.map(({ icon: Icon, title, text }, index) => (
+          <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {pillars.map(({ icon: Icon, title, text }, index) => (
               <Reveal
                 key={title}
                 delay={index * 60}

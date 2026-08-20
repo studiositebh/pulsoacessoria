@@ -22,27 +22,27 @@ export interface Solution {
 export const homeSolutions: Solution[] = [
   {
     id: "seguros",
-    title: "Seguros",
+    title: "Seguro Empresarial",
     description:
       "Soluções para proteção patrimonial, empresarial e outros riscos.",
     icon: ShieldCheck,
   },
   {
     id: "saude",
-    title: "Planos de saúde",
+    title: "Plano de Saúde",
     description:
       "Consultoria para encontrar alternativas adequadas ao perfil e às necessidades do cliente.",
     icon: HeartPulse,
   },
   {
     id: "rastreamento",
-    title: "Rastreamento veicular",
+    title: "Rastreamento Veicular",
     description: "Soluções de monitoramento e proteção para veículos.",
     icon: Navigation,
   },
   {
     id: "beneficios",
-    title: "Benefícios",
+    title: "Benefício",
     description:
       "Alternativas voltadas para empresas, grupos, clientes e colaboradores.",
     icon: Gift,
@@ -62,28 +62,28 @@ export const solutionsList: Solution[] = [
   },
   {
     id: "seguros-empresariais",
-    title: "Seguros empresariais e patrimoniais",
+    title: "Seguro Empresarial e Patrimonial",
     description:
       "Proteção de patrimônios, operações e responsabilidades de empresas de diferentes portes e segmentos.",
     icon: Briefcase,
   },
   {
     id: "planos-de-saude",
-    title: "Planos de saúde",
+    title: "Plano de Saúde",
     description:
       "Consultoria para identificar alternativas de plano de saúde adequadas ao perfil e às necessidades do cliente.",
     icon: HeartPulse,
   },
   {
     id: "rastreamento",
-    title: "Rastreamento veicular",
+    title: "Rastreamento Veicular",
     description:
       "Soluções para acompanhamento, localização e proteção veicular.",
     icon: Navigation,
   },
   {
     id: "beneficios",
-    title: "Benefícios",
+    title: "Benefício",
     description:
       "Soluções voltadas para empresas, equipes, grupos e clientes.",
     icon: Gift,

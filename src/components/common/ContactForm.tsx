@@ -9,10 +9,10 @@ import { createWhatsAppUrl } from "@/lib/whatsapp";
 
 const subjects = [
   "Seguro Condomínio",
-  "Seguros",
-  "Plano de saúde",
-  "Rastreamento veicular",
-  "Benefícios",
+  "Seguro Empresarial",
+  "Plano de Saúde",
+  "Rastreamento Veicular",
+  "Benefício",
   "Outro",
 ];
 

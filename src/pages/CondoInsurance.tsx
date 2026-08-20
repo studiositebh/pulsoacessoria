@@ -241,16 +241,22 @@ export default function CondoInsurance() {
         <Container>
           <Reveal className="mx-auto max-w-3xl">
             <SectionHeading
-              eyebrow="Informação importante"
               title="Condomínios possuem obrigações relacionadas ao seguro"
             />
             <div className="mt-6 space-y-4 text-base leading-relaxed text-ink-soft">
               <p>
-                A legislação brasileira estabelece a obrigatoriedade de seguro
-                para edificações em condomínio, especialmente em relação a riscos
-                de incêndio ou destruição. As exigências e coberturas aplicáveis
-                devem ser avaliadas de acordo com as características do imóvel e a
-                legislação vigente.
+                O seguro condominial não é apenas uma medida de prudência: ele é
+                obrigatório. O artigo 1.346 do Código Civil determina o seguro de
+                toda a edificação contra incêndio ou destruição, total ou parcial,
+                e o artigo 1.348, inciso IX, atribui ao síndico o dever de
+                realizá-lo.
+              </p>
+              <p>
+                Cumprir a obrigação legal, porém, é apenas o ponto de partida.
+                Cabe ao condomínio avaliar seus riscos e contratar coberturas e
+                limites compatíveis com as características da edificação. Um
+                seguro vigente, mas inadequadamente dimensionado, pode não
+                oferecer a proteção esperada no momento do sinistro.
               </p>
             </div>
             <Notice className="mt-6">

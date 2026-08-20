@@ -134,6 +134,7 @@ export function Footer() {
           <div className="mt-5 flex flex-col items-start justify-between gap-3 text-xs text-brand-300 sm:flex-row sm:items-center">
             <p>
               © {year} {siteConfig.companyName}. Todos os direitos reservados.
+              {" "}CNPJ: {siteConfig.cnpj}
             </p>
             <Link
               to="/politica-de-privacidade"

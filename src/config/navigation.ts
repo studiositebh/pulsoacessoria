@@ -15,8 +15,8 @@ export const mainNav: NavItem[] = [
 /** Soluções listadas no rodapé. */
 export const footerSolutions: NavItem[] = [
   { label: "Seguro Condomínio", to: "/seguro-condominio" },
-  { label: "Seguros empresariais", to: "/solucoes" },
-  { label: "Planos de saúde", to: "/solucoes" },
-  { label: "Rastreamento veicular", to: "/solucoes" },
-  { label: "Benefícios", to: "/solucoes" },
+  { label: "Seguro Empresarial", to: "/solucoes" },
+  { label: "Plano de Saúde", to: "/solucoes" },
+  { label: "Rastreamento Veicular", to: "/solucoes" },
+  { label: "Benefício", to: "/solucoes" },
 ];

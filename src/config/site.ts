@@ -16,7 +16,7 @@ export const siteConfig = {
 
   // Posicionamento / tagline da marca
   tagline:
-    "Consultoria especializada em soluções de proteção, seguros, rastreamento e benefícios.",
+    "Consultoria especializada em segurança, prevenção e proteção patrimonial.",
 
   shortDescription:
     "A Pulso é uma consultoria que analisa necessidades, identifica riscos e apresenta soluções adequadas de seguros, proteção e benefícios.",
@@ -28,8 +28,10 @@ export const siteConfig = {
   // Telefone / WhatsApp (formato de exibição)
   phoneDisplay: "(31) 99391-6004",
 
-  // TODO: substituir pelo e-mail oficial
-  email: "contato@pulso.com.br",
+  email: "atendimento@pulsoassessoria.com.br",
+
+  // CNPJ oficial da Pulso, exibido no rodapé e nos dados estruturados.
+  cnpj: "63.702.430/0001-75",
 
   // TODO: substituir pelo horário de atendimento real
   businessHours: "Segunda a sexta, das 9h às 18h",
