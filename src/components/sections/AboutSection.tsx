@@ -8,17 +8,17 @@ const pillars = [
   {
     icon: Search,
     title: "Conhecer antes de recomendar",
-    text: "Analisamos a realidade, as necessidades e os riscos antes de apresentar qualquer solução.",
+    text: "Analisamos riscos e necessidades antes de indicar qualquer solução.",
   },
   {
     icon: Shield,
     title: "Prevenção e proteção integradas",
-    text: "Combinamos análise de riscos, segurança patrimonial, monitoramento, rastreamento e seguros em uma visão completa de proteção.",
+    text: "Riscos, monitoramento, rastreamento e seguros em uma proteção completa.",
   },
   {
     icon: Handshake,
     title: "Especialistas e parceiros qualificados",
-    text: "Reunimos a experiência do nosso time a uma rede de corretores, seguradoras e empresas especializadas para buscar a solução adequada a cada cliente.",
+    text: "Unimos nossa experiência a uma rede de corretores e seguradoras parceiras.",
   },
 ];
 
