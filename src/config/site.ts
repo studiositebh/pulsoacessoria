@@ -31,7 +31,7 @@ export const siteConfig = {
   email: "atendimento@pulsoassessoria.com.br",
 
   // CNPJ oficial da Pulso, exibido no rodapé e nos dados estruturados.
-  cnpj: "63.702.430/0001-75",
+  cnpj: "66.117.192/0001-29",
 
   // TODO: substituir pelo horário de atendimento real
   businessHours: "Segunda a sexta, das 9h às 18h",
