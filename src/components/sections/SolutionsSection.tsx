@@ -24,18 +24,19 @@ export function SolutionsSection() {
               key={id}
               delay={index * 60}
               as="article"
-              className="group flex h-full flex-col rounded-xl border border-brand-100 bg-white p-6 shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover"
+              className="group relative flex h-full flex-col overflow-hidden rounded-xl border border-brand-100 bg-white p-6 pt-16 shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover sm:pt-20 lg:pt-24"
             >
-              <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-brand-50 text-accent-600 transition-colors group-hover:bg-accent-50">
-                <Icon className="h-6 w-6" aria-hidden="true" />
-              </span>
-              <h3 className="mt-4 text-lg font-semibold text-brand-900">{title}</h3>
-              <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-soft">
+              <Icon
+                aria-hidden="true"
+                className="pointer-events-none absolute -left-3 -top-3 h-16 w-16 text-accent-600/10 transition-transform duration-300 ease-out group-hover:translate-x-[5px] group-hover:translate-y-[4px] group-hover:rotate-[4deg] group-hover:scale-[1.03] sm:-left-4 sm:-top-4 sm:h-20 sm:w-20 lg:h-24 lg:w-24"
+              />
+              <h3 className="relative text-lg font-semibold text-brand-900">{title}</h3>
+              <p className="relative mt-2 flex-1 text-sm leading-relaxed text-ink-soft">
                 {description}
               </p>
               <Link
                 to="/solucoes"
-                className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-accent-700 transition-colors hover:text-accent-800"
+                className="relative mt-4 inline-flex items-center gap-1 text-sm font-semibold text-accent-700 transition-colors hover:text-accent-800"
               >
                 Saiba mais
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />

@@ -52,19 +52,29 @@ export function CondoInsuranceSection() {
           </Reveal>
 
           <Reveal className="flex lg:col-span-2">
-            <div className="flex w-full flex-col justify-center rounded-2xl bg-brand-900 p-8 text-white">
-              <h3 className="text-xl font-bold text-white sm:text-2xl">
-                Vamos avaliar o que o seu condomínio precisa
-              </h3>
-              <p className="mt-3 text-brand-100">
-                Conheça a página completa do Seguro Condomínio, com coberturas,
-                situações práticas e como funciona a nossa consultoria.
-              </p>
-              <div className="mt-6">
-                <Button as="link" to="/seguro-condominio" variant="secondary" size="lg">
-                  Conhecer o Seguro Condomínio
-                  <ArrowRight className="h-5 w-5" aria-hidden="true" />
-                </Button>
+            <div className="relative flex w-full flex-col justify-center overflow-hidden rounded-2xl bg-brand-900 p-8 text-white">
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-white/5"
+              />
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute -bottom-16 -left-10 h-48 w-48 rounded-full bg-white/5"
+              />
+              <div className="relative">
+                <h3 className="text-xl font-bold text-white sm:text-2xl">
+                  Vamos avaliar o que o seu condomínio precisa
+                </h3>
+                <p className="mt-3 text-brand-100">
+                  Conheça a página completa do Seguro Condomínio, com coberturas,
+                  situações práticas e como funciona a nossa consultoria.
+                </p>
+                <div className="mt-6">
+                  <Button as="link" to="/seguro-condominio" variant="secondary" size="lg">
+                    Conhecer o Seguro Condomínio
+                    <ArrowRight className="h-5 w-5" aria-hidden="true" />
+                  </Button>
+                </div>
               </div>
             </div>
           </Reveal>

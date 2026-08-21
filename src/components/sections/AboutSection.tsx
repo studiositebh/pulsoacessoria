@@ -63,12 +63,12 @@ export function AboutSection() {
           <Reveal className="relative">
             <div className="overflow-hidden rounded-2xl border border-brand-100 shadow-card">
               <img
-                src="/images/home/sobre-consultoria.svg"
+                src="/images/home/quem-eh-a-pulso.webp"
                 alt="Atendimento consultivo da Pulso"
-                width={1200}
-                height={900}
+                width={1060}
+                height={1484}
                 loading="lazy"
-                className="aspect-[4/3] w-full object-cover"
+                className="aspect-[4/5] w-full object-cover"
               />
             </div>
           </Reveal>

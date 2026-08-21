@@ -94,6 +94,7 @@ export interface RiskExample {
   id: string;
   title: string;
   description: string;
+  image: string;
 }
 
 /** Situações práticas que podem gerar prejuízos (home e landing). */
@@ -103,35 +104,41 @@ export const riskExamples: RiskExample[] = [
     title: "Danos elétricos",
     description:
       "Uma descarga elétrica pode danificar placas, bombas, sistemas e equipamentos de alto valor.",
+    image: "/images/situacoes-do-dia-a-dia/danos-eletricos.webp",
   },
   {
     id: "impacto",
     title: "Impacto de veículos",
     description:
       "Um automóvel pode atingir portões, fachadas ou outras estruturas do condomínio.",
+    image: "/images/situacoes-do-dia-a-dia/impacto-de-veiculos.webp",
   },
   {
     id: "portao",
     title: "Portão eletrônico",
     description:
       "O portão eletrônico pode danificar o automóvel de um morador ao fechar.",
+    image: "/images/situacoes-do-dia-a-dia/portao-eletronico.webp",
   },
   {
     id: "vazamento",
     title: "Vazamentos e tubulações",
     description:
       "Problemas hidráulicos podem afetar áreas comuns, unidades e imóveis vizinhos.",
+    image: "/images/situacoes-do-dia-a-dia/vazamentos-e-tubulacoes.webp",
   },
   {
     id: "vidro",
     title: "Quebra de vidros",
     description:
       "Vidros de portarias, salões e áreas comuns podem ser danificados.",
+    image: "/images/situacoes-do-dia-a-dia/quebra-de-vidros.webp",
   },
   {
     id: "sindico",
     title: "Responsabilidade do síndico",
     description:
       "Decisões administrativas podem gerar questionamentos e responsabilização.",
+    image: "/images/situacoes-do-dia-a-dia/responsabilidade-do-sindico.webp",
   },
 ];
